@@ -13,5 +13,5 @@ var params = { foo: 'bar' };
 api.post(params, function(err, result) {
 	var objectValue = JSON.parse(result);
 	console.log("User ID from POST(Test data - Test data - https://jsonplaceholder.typicode.com/posts) method "+objectValue.id);
-	assert.equal(1, objectValue.id);
+	assert.equal(101, objectValue.id);
 });
